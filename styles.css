@@ -3,6 +3,19 @@
     padding: 0;
 }
 
-body {
-    background-color: burlywood;
+/*lutho's styling section*/
+.navbar {
+    background-color: greenyellow;
+    float: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li {
+    display: inline-block;
 }
