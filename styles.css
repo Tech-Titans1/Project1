@@ -9,11 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: 8rem;
 }
 #logo {
-    Height: 2rem;
-    width: 2rem;
+    border-radius: 50%;
+    Height: 5rem;
+    width: 5rem;
+    margin: 15px 15px;
+    padding: 15px 15px;
 }
 li {
     display: inline-block;
