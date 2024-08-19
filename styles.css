@@ -3,19 +3,40 @@
     padding: 0;
 }
 
-/*lutho's styling section*/
+/*lutho's navigation bar styling section*/
 .navbar {
-    background-color: greenyellow;
-    float: flex;
+    background-color: #78a57a;
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 5rem;
 }
-.logo {
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
+#logo {
+    Height: 2rem;
+    width: 2rem;
 }
 li {
     display: inline-block;
+}
+li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+
+/*lutho's footer styling section*/
+.foot-bar {
+    background-color: green;
+}
+.copyright {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+#priv {
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
 }
