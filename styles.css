@@ -6,11 +6,13 @@
 
 /*lutho's navigation bar styling section*/
 .navbar {
-    background-color: #78a57a;
+    background-color: darkgreen;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8rem;
+    top: 0;
+    width: 100%;
 }
 #logo {
     border-radius: 50%;
@@ -18,29 +20,78 @@
     width: 5rem;
     margin: 15px 15px;
     padding: 15px 15px;
+    border: 1px solid;
+    border-color: greenyellow;
+    box-shadow: 3px 3px 3px grey;
 }
 li {
     display: inline-block;
 }
 li a {
     color: white;
+    text-decoration-line: none;
     text-transform: uppercase;
     font-weight: bold;
     padding: 15px 15px;
-    margin: 15px 15px;
+    margin: 15px 15px;    
 }
-
+/*Lutho's recipes styling*/
+.rec {
+    color: darkgreen;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.article1 {
+    display: flex;
+}
+.article2 {
+    display: flex;
+}
+.article3 {
+    display: flex;
+}
+.article4 {
+    display: flex;
+}
+.gallery {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: grey;
+    box-shadow: 2px 2px 2px grey;
+}
+.gallery:hover {
+    background-color: greenyellow;
+}
+img {
+    border: 1px solid;
+    border-color: grey;
+}
+.desc {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: darkgreen;
+    border: 1px solid;
 /*lutho's footer styling section*/
 .foot-bar {
-    background-color: green;
+    background-color: darkgreen;
+}
+.veggie{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px greenyellow;
 }
 .copyright {
     background-color: grey;
-    color: white;
+    color: darkgreen;
     text-align: center;
 }
 #priv {
-    color: green;
     text-transform: uppercase;
     font-weight: bold;
 }
