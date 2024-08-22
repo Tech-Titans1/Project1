@@ -3,15 +3,19 @@
     padding: 0;
     font-family: sans-serif;
 }
-
+body {
+  
+}
 /*lutho's navigation bar styling section*/
 .navbar {
-    background-color: darkgreen;
+    background-color: #182b3f;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8rem;
+    /*height: 8rem;*/
     top: 0;
+    overflow: hidden;
+    position: fixed;
     width: 100%;
 }
 #logo {
@@ -36,12 +40,28 @@ li a {
     margin: 15px 15px;    
 }
 /*Lutho's recipes styling*/
+.rec-head {
+  color:#182b3f;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10rem;
+  
+}
 .rec {
-    color: darkgreen;
-    text-transform: uppercase;
-    font-size: 2rem;
+    color: #182b3f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-weight: bold;
-    text-align: center;
+    margin: 10rem;
+    text-transform: uppercase;
+}
+#rec-pic {
+  border: none;
+  width: 300px;
+  height: 250px;
 }
 .article1 {
     display: flex;
@@ -54,30 +74,41 @@ li a {
 }
 .article4 {
     display: flex;
+    margin-bottom: 10rem;
 }
 .gallery {
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid;
+    margin: 25px;
+    padding: 16px;
     border-color: grey;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 3px 3px 3px #dae8f7;
+    transition: all .35s ease;
+    border-radius: 5px;
 }
-.gallery:hover {
-    background-color: greenyellow;
-}
+/*.gallery:hover {
+    transform: translateY(-5px);
+}*/
 img {
-    border: 1px solid;
+    
     border-color: grey;
+
 }
 .desc {
     color: white;
     text-align: center;
     font-weight: bold;
-    background-color: darkgreen;
+    background-color: #182b3f;
     border: 1px solid;
+}
 /*lutho's footer styling section*/
+hr {
+  color: #182b3f;
+}
 .foot-bar {
-    background-color: darkgreen;
+    padding: 50px;
+    background-color: #182b3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .veggie{
     color: white;
@@ -88,7 +119,7 @@ img {
 }
 .copyright {
     background-color: grey;
-    color: darkgreen;
+    color: #182b3f;
     text-align: center;
 }
 #priv {
@@ -204,10 +235,10 @@ img {
     .box{
        padding: 0px 20px 10px 20px;
         background:#fff;
-       /* box-shadow: 5px 30px 56.1276px rgb(55, 55,55 /25%);*/
+        box-shadow: 5px 30px 56.1276px rgb(55, 55,55 /25%);
        box-shadow: 5px 5px 5px #becbcf;
         border-radius: 5px;
-      /*  position: relative;*/
+        position: relative;
         transition: all .35s ease;
     }
     .shop{
@@ -252,8 +283,8 @@ img {
         justify-content: center;
         font-size: 12px;
     }
-    .box:hover{
+    /*.box:hover{
         transform: translateY(-5px);
-    }
-
+    }*/
  
+
