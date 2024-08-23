@@ -42,12 +42,16 @@ li a {
 /*Lutho's recipes styling*/
 .rec-head {
   color:#182b3f;
-  text-align: center;
+  text-align: left;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 10rem;
+  margin: 50px;
   
+}
+.cook-today{
+  color: #E84C1F;
+  font-size: 24px;
 }
 .rec {
     color: #182b3f;
@@ -55,8 +59,8 @@ li a {
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
-    margin: 10rem;
-    text-transform: uppercase;
+  /* margin: 10rem;*/
+    text-transform: capitalize;
 }
 #rec-pic {
   border: none;
