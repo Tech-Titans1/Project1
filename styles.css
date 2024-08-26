@@ -3,9 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-body {
-  
-}
+
 /*lutho's navigation bar styling section*/
 .navbar {
     background-color: #182b3f;
@@ -17,6 +15,7 @@ body {
     overflow: hidden;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 #logo {
     border-radius: 50%;
@@ -90,7 +89,6 @@ li a {
 img {
     
     border-color: grey;
-
 }
 .desc {
     color: white;
@@ -100,10 +98,27 @@ img {
     border: 1px solid;
 }
 /*lutho's footer styling section*/
+.registration{
+  color: #fff;
+  margin-left: 0;
+  text-align: left;
+}
+.quicklinks{
+color: #E84C1F;
+}
+
+.quicklinks li {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  text-transform: lowercase;
+}
 hr {
   color: #182b3f;
 }
 .foot-bar {
+  padding-right: 50px;
+ /* width: 100%;*/
     padding: 50px;
     background-color: #182b3f;
     display: flex;
@@ -231,6 +246,8 @@ hr {
         text-align: center;
         cursor: pointer;
         padding-top: 2rem;
+      /*  transition: all .35s ease;*/
+
     }
     .box{
        padding: 0px 20px 10px 20px;
@@ -239,7 +256,7 @@ hr {
        box-shadow: 5px 5px 5px #becbcf;
         border-radius: 5px;
         position: relative;
-        transition: all .35s ease;
+      transition: all .35s ease;
     }
     .shop{
        /* margin-bottom: 5%;*/
@@ -248,6 +265,8 @@ hr {
     .box img{
         width: 100%;
         height: auto;
+        border: 0;
+
         
     }
     .product-names{
@@ -255,7 +274,7 @@ hr {
        
     }
     .product-names h4{
-        color:#78a57a;
+        color:#d1e79d;
         font-size: 15px;
         letter-spacing: 1px;
         margin-bottom: 0px;
@@ -283,8 +302,90 @@ hr {
         justify-content: center;
         font-size: 12px;
     }
-    /*.box:hover{
+    .box:hover{
         transform: translateY(-5px);
-    }*/
- 
-
+    }
+    .headingtester{
+      padding: 10rem;
+      margin: 10px;
+    }
+    /*Zintle's about us styling*/
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", sans-serif;
+  }
+  .heading {
+      text-align: center;
+      width: 90%;
+      margin: 20px;
+  }
+  .heading h1{
+      font-size: 50px;
+      color: #182b3f;
+      margin-bottom: 25px;
+  }
+  p {
+    font-size: 1rem;
+    color: #182b3f;
+  }
+  .About {
+      display: flex;
+      margin: 15px;
+      padding: 15px;
+      color: #182b3f;
+      font-style: oblique;
+      font-weight: bold;
+  }
+  img {
+      padding-right: 8px;
+  }
+    /*Zintle's slide show styling*/
+    #slider{
+      overflow: hidden;
+    }
+    #slider figure{
+      position: relative;
+      margin-top: 10rem;
+      margin-right: 0%;
+      left:0;
+      animation :20s slider infinite;
+      width: 500%;
+    }
+    #slider figure img{
+      float: left;
+      width: 20%;
+    }
+    
+    @keyframes slider{
+      0%{
+        left:0;
+      }
+      20%{
+        left:0;
+    
+      }
+      25%{
+        left:0;
+      }
+      45%{
+        left:-100%;
+    
+      }
+      50%{
+        left:-100%;
+    
+      }
+      70%{
+        left:-100%;
+    
+      }
+      75%{
+        left:-300%;
+    
+      }
+      95%{
+        left:-300%;
+    
+      }
+    }
