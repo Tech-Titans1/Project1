@@ -107,6 +107,7 @@ img {
 /*lutho's footer styling section*/
 .social-icons{
   color: #E84C1F;
+  justify-content: space-between;
 }
 .registration p{
   color: #fff;
