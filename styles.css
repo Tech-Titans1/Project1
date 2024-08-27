@@ -324,11 +324,7 @@ hr {
     .box:hover{
         transform: translateY(-5px);
     }
-    .heading-slider{
-      background-color: grey;
-      padding: 10rem;
-      margin: 10px;
-    }
+   
     /*Zintle's about us styling*/
    /* *{
       margin: 0;
@@ -389,6 +385,11 @@ hr {
       padding-right: 8px;
   }
     /*Zintle's slide show styling*/
+    .heading-slider{
+      background-color:rgb(from #f06d06 r g b / 80%);
+      padding: 40px;
+     /* margin: 10px;*/
+    }
     #slider{
       overflow: hidden;
     }
