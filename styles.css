@@ -4,6 +4,14 @@
     padding: 0;
     font-family: 'Poppins', "Times New Roman", sans-serif;
 }
+/*ID scroll*/
+#Shop, #Recipes, #Contact{
+  padding: 50px;
+}
+#About{
+  padding: 50px;
+  background-color: skyblue;
+}
 
 /*lutho's navigation bar styling section*/
 .navbar {
