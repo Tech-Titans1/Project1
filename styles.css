@@ -44,9 +44,11 @@ li a {
   color:#182b3f;
   text-align: left;
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 36px;
   font-weight: bold;
-  margin: 50px;
+ /* margin: 50px;*/
+ margin-left: 80px;
+ margin-top: 40px;
   
 }
 .cook-today{
@@ -162,7 +164,7 @@ hr {
   .container-contact h2{
     font-size: 36px;
     margin-bottom: 40px;
-    color: #fff;
+    color: #78a57a;
   }
   .message{
     color: #78a57a;
@@ -210,7 +212,7 @@ hr {
     transition: 0.3s ease;
   }
   button:hover{
-    text-align: left;
+    background-color:#E84C1F;
 
   }
   .contact-info{
@@ -228,16 +230,21 @@ hr {
     color:#78a57a ;
     margin-right: 10px;
   }
+
+  .contact-info i:hover{
+    color: #E84C1F;
+  }
   .contact-info h3{
     font-size: 24px;
     margin-bottom: 20px;
     color: #fff;
 
   }
+
    /*Sinelizwi's shop styling section*/
   /*Our products title */
   .products h2 {
-    font-size: 30px;
+    font-size: 36px;
     }
     .products h4{
       font-size:14px ;
@@ -336,8 +343,8 @@ hr {
       width: 90%;
       margin: 20px;
   }
-  .heading h1{
-      font-size: 50px;
+  .heading h2{
+      font-size: 36px;
       color: #78a57a;
      margin-bottom: 25px;
      text-align: left;
