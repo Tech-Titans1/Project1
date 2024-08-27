@@ -112,9 +112,11 @@ img {
 }
 .quicklinks{
 color: #E84C1F;
+margin-bottom: 10px;
 }
 
 .quicklinks li {
+  margin-top: 5px;
   display: block;
   font-size: 14px;
   text-align: left;
