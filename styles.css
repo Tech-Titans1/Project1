@@ -25,7 +25,7 @@
     margin: 15px 15px;
     padding: 15px 15px;
     border: 1px solid;
-    border-color: greenyellow;
+    border-color: #adff2f;
     box-shadow: 3px 3px 3px grey;
 }
 li {
@@ -80,12 +80,12 @@ li a {
 }
 .article4 {
     display: flex;
-    margin-bottom: 10rem;
+   /* margin-bottom: 10rem;*/
 }
 .gallery {
     margin: 25px;
     padding: 16px;
-    border-color: grey;
+    border-color: #808080;
     box-shadow: 3px 3px 3px #dae8f7;
     transition: all .35s ease;
     border-radius: 5px;
@@ -283,6 +283,7 @@ hr {
     .shop{
        /* margin-bottom: 5%;*/
         padding: 5%;
+        background-color:skyblue;
     }
     .box img{
         width: 100%;
@@ -389,7 +390,7 @@ hr {
   }
     /*Zintle's slide show styling*/
     .heading-slider{
-      background-color:rgb(from #f06d06 r g b / 80%);
+      background-color:#dae8f7;
       padding: 40px;
      /* margin: 10px;*/
     }
